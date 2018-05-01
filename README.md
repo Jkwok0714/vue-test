@@ -1,4 +1,4 @@
-# vue-bruelog
+# vue-demo
 
 > A Vue.js project
 
