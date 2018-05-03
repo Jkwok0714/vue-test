@@ -2,6 +2,8 @@
 
 > Every time a to-do list is made, God kills a kitten
 
+https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2#importing-components
+
 ## Build Setup
 
 ``` bash
