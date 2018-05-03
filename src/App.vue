@@ -1,13 +1,39 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <Todo v-bind:todos="todos" />
   </div>
 </template>
 
 <script>
+import Todo from './components/Todo';
+
 export default {
   name: 'App',
+  components: {
+    Todo,
+  },
+  data() {
+    return {
+      todos: [{
+        title: 'Go to Nippon',
+        project: 'Travel',
+        done: true,
+      }, {
+        title: 'Record Revelation by Insomnium',
+        project: 'Metal Covers',
+        done: false,
+      }, {
+        title: 'Write new song',
+        project: 'Valkaron Band',
+        done: false,
+      }, {
+        title: 'Paint Tomoko',
+        project: 'Custom RG',
+        done: false,
+      }],
+    };
+  },
 };
 </script>
 
